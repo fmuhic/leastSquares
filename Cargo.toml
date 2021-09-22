@@ -1,0 +1,13 @@
+[package]
+name = "least_squares"
+version = "1.0.0"
+authors = ["fmuhic <fuad.muhic@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitflags = "=1.0.4"
+structopt = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+csv = "1.1"
